@@ -1,0 +1,118 @@
+.bg-clock-container {
+  background-image: linear-gradient(to right, #cffcf1, #b1f3e2);
+  font-family: 'roboto';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.digital-timer-heading {
+  font-size: 25px;
+  font-weight: bold;
+}
+.clock-settings-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.clock-bg-image-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 30px;
+}
+.clock-container {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.time-displayed {
+  color: #00d9f5;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.clock-status-text {
+  font-size: 15px;
+  margin-top: 0px;
+}
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.pause-reset-buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.play-pause-reset-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: bold;
+}
+.play-pause-reset-icon-button {
+  border: none;
+  background-color: transparent;
+  height: 50px;
+  width: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.play-pause-rest-icon {
+  height: 50px;
+  width: 50px;
+  padding: 5px;
+}
+.play-pause-reset-text {
+  font-size: 22px;
+}
+.text {
+  font-size: 12px;
+}
+.counter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.counter-button {
+  width: 20px;
+  height: 10px;
+  border: none;
+  background-color: transparent;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+.counter {
+  background-image: linear-gradient(to right, #9bf5de, #6ef7d4);
+  width: 60px;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
